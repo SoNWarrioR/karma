@@ -1,0 +1,2 @@
+*/5 * * * * php /opt/daemon/src/cron/emailCheck.php > /opt/daemon/logs/emailCheck.log
+*/30 * * * * php /opt/daemon/src/cron/subscriptionCheck.php > /opt/daemon/logs/subscriptionCheck.log

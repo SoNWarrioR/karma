@@ -1,0 +1,23 @@
+{
+    "name": "son/karma8.test",
+    "description": "Test task from karma8",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "ext-posix": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Karma\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Molkov",
+            "email": "i.molkov.ab@gmail.com"
+        }
+    ]
+}
